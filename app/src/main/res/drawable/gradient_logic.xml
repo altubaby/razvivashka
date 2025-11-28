@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="20dp" />
+    <gradient
+        android:startColor="@color/game_crossword_start"
+        android:endColor="@color/game_crossword_end"
+        android:angle="30" />
+    <corners android:radius="20dp" />
+    <stroke
+        android:width="2dp"
+        android:color="@color/white" />
+</shape>

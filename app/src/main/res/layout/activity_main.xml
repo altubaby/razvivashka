@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- Основной контент -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Заголовок -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Привет!"
+                android:textSize="28sp"
+                android:textColor="#2D3748"
+                android:layout_marginBottom="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Готов к новым приключениям?"
+                android:textSize="18sp"
+                android:textColor="#718096"
+                android:layout_marginBottom="32dp" />
+
+            <!-- Сетка кнопок - ДОБАВЛЯЕМ ID -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/gamesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <!-- Угадай флаг -->
+                <Button
+                    android:id="@+id/btnFlag"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="Угадай флаг"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/gradient_flag"
+                    app:layout_constraintWidth_percent="0.48"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <!-- Раскраска -->
+                <Button
+                    android:id="@+id/btnPaint"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="Раскраска"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/gradient_coloring"
+                    app:layout_constraintWidth_percent="0.48"
+                    app:layout_constraintTop_toBottomOf="@id/btnFlag"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="12dp"/>
+
+                <!-- Математика -->
+                <Button
+                    android:id="@+id/btnMath"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="Математика"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/gradient_math"
+                    app:layout_constraintWidth_percent="0.48"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <!-- Логика -->
+                <Button
+                    android:id="@+id/btnLogic"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="Логика"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/gradient_logic"
+                    app:layout_constraintWidth_percent="0.48"
+                    app:layout_constraintTop_toBottomOf="@id/btnMath"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="12dp"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Навигационная панель (остается без изменений) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:elevation="8dp">
+
+        <!-- Кнопка Игры -->
+        <LinearLayout
+            android:id="@+id/navGames"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/baseline_extension_24"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/textGames"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Игры"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+
+        <!-- Кнопка Рейтинг -->
+        <LinearLayout
+            android:id="@+id/navRating"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/baseline_app_registration_24"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/textRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Рейтинг"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+
+        <!-- Кнопка Профиль -->
+        <LinearLayout
+            android:id="@+id/navProfile"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/baseline_account_box_24"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/textProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Профиль"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

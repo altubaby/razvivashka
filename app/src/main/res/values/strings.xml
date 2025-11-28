@@ -1,0 +1,69 @@
+<resources>
+    <!-- Общие строки -->
+    <string name="app_name">Развивашка</string>
+    <string name="welcome_message">Учись и играй!</string>
+    <string name="hello_user">Привет, %s!</string>
+    <string name="ready_for_adventure">Готов к новым приключениям?</string>
+
+    <!-- Авторизация -->
+    <string name="login">Вход</string>
+    <string name="register">Регистрация</string>
+    <string name="email_hint">твой@email.com</string>
+    <string name="password_hint">••••••••</string>
+    <string name="username_hint">Как тебя зовут?</string>
+    <string name="confirm_password_hint">Подтверди пароль</string>
+    <string name="welcome_title">Добро пожаловать!</string>
+    <string name="welcome_description">Войди в свой аккаунт, чтобы продолжить обучение</string>
+    <string name="join_title">Присоединяйся!</string>
+    <string name="join_description">Создай аккаунт и начни своё приключение</string>
+
+    <!-- Игры -->
+    <string name="game_coloring">Раскраска</string>
+    <string name="game_flags">Угадай флаг</string>
+    <string name="game_math">Математика</string>
+    <string name="game_crossword">Кроссворд</string>
+    <string name="game_reading">Чтение</string>
+    <string name="game_logic">Логика</string>
+
+    <!-- Игровые сообщения -->
+    <string name="coloring_title">Раскрась картинку!</string>
+    <string name="choose_color">Выбери цвет</string>
+    <string name="eraser">Ластик</string>
+    <string name="clear">Очистить</string>
+    <string name="complete">Готово</string>
+    <string name="colored_areas">Раскрашено: %d из %d областей</string>
+    <string name="points_per_area">За каждую область получишь 5 очков! ⭐</string>
+
+    <!-- Флаги -->
+    <string name="flag_question">Флаг какой страны изображён?</string>
+    <string name="question_count">Вопрос %d из %d</string>
+    <string name="correct_answer">🎉 Правильно! +10 очков</string>
+    <string name="wrong_answer">❌ Неправильно. Правильный ответ: %s</string>
+
+    <!-- Математика -->
+    <string name="math_problem">Задача %d из %d</string>
+    <string name="enter_answer">Введи ответ</string>
+    <string name="check">Проверить</string>
+    <string name="math_fact">💡 Знаешь ли ты? Математика помогает нам считать всё вокруг - от конфет до звёзд на небе!</string>
+
+    <!-- Завершение игры -->
+    <string name="congratulations">🎉 Поздравляем! 🎉</string>
+    <string name="excellent">Превосходно!</string>
+    <string name="great">Отлично!</string>
+    <string name="good">Хорошо!</string>
+    <string name="not_bad">Неплохо!</string>
+    <string name="points_earned">Заработано очков</string>
+    <string name="next_level">Следующий уровень</string>
+    <string name="back_to_menu">В главное меню</string>
+
+    <!-- Рейтинг -->
+    <string name="leaderboard">🏆 Рейтинг игроков</string>
+    <string name="top_players">Топ-10 игроков</string>
+    <string name="your_position">Твоя позиция</string>
+    <string name="keep_playing">Продолжай играть!</string>
+
+    <!-- Навигация -->
+    <string name="games">Игры</string>
+    <string name="rating">Рейтинг</string>
+    <string name="profile">Профиль</string>
+</resources>

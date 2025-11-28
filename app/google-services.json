@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "578333543883",
+    "project_id": "razvivashka-8ee08",
+    "storage_bucket": "razvivashka-8ee08.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578333543883:android:d363c670f49b751bf4ba4e",
+        "android_client_info": {
+          "package_name": "com.example.game_true"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx0ubKpKEcKI1prwSBZivPQDE8AsahzB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

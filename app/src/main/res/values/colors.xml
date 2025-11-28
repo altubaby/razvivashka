@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные цвета -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_100">#E1BEE7</color>
+    <color name="purple_300">#BA68C8</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Градиенты из Figma -->
+    <color name="gradient_pink_purple_start">#FFF8F4FF</color>
+    <color name="gradient_pink_purple_end">#FFE8E8FF</color>
+    <color name="gradient_green_blue_start">#FFF0FFF0</color>
+    <color name="gradient_green_blue_end">#FFE0F7FF</color>
+    <color name="gradient_blue_green_start">#FFE3F2FD</color>
+    <color name="gradient_blue_green_end">#FFE8F5E8</color>
+    <color name="gradient_yellow_orange_start">#FFFFFDE7</color>
+    <color name="gradient_yellow_orange_end">#FFFFECB3</color>
+    <color name="gradient_purple_blue_start">#60A0FF</color>
+    <color name="gradient_purple_blue_mid">#FA64B8</color>
+    <color name="gradient_purple_blue_end">#C379FF</color>
+
+
+    <!-- Цвета игр -->
+    <color name="game_coloring_start">#EB9D9D</color>
+    <color name="game_coloring_end">#FFFF5252</color>
+    <color name="game_flags_start">#94E6DF</color>
+    <color name="game_flags_end">#FF26A69A</color>
+    <color name="game_math_start">#8AE1EF</color>
+    <color name="game_math_end">#FF29B6F6</color>
+    <color name="game_crossword_start">#FDE1AC</color>
+    <color name="game_crossword_end">#FFA500</color>
+    <color name="game_reading_start">#EFABC2</color>
+    <color name="game_reading_end">#FFF06292</color>
+    <color name="game_logic_start">#A9A1F4</color>
+    <color name="game_logic_end">#5319A9</color>
+
+    <!-- Дополнительные цвета -->
+    <color name="background_white">#FFFFFFFF</color>
+    <color name="text_primary">#FF333333</color>
+    <color name="text_secondary">#FF666666</color>
+    <color name="text_muted">#FF999999</color>
+    <color name="border_light">#FFE0E0E0</color>
+    <color name="success_green">#FF4CAF50</color>
+    <color name="red">#FFF44336</color>
+    <color name="warning_yellow">#FFFFC107</color>
+    <color name="star_yellow">#FFFFD600</color>
+    <color name="gray_light">#E0E0E0</color>
+</resources>
